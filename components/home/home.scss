@@ -1,0 +1,321 @@
+.home{
+    position: absolute;
+    width: 65%;
+    height: 79%;
+    left: 35%;
+    top: 15%;
+}
+p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+color: rgba(255, 255, 255, 0.55);
+}
+h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 62px;
+line-height: 116px;
+
+color: #FFFFFF;
+}
+.know{
+    width: 214px;
+height: 62px;
+background: #D22A2A;
+border-radius: 10px 0px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+text-align: center;
+color: #FFFFFF;
+}
+.rectangel{
+    position: absolute;
+    width: 35%;
+    height: 79%;
+    left: 0%;
+    top: 15%;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 80px;
+background: linear-gradient(180deg, rgba(198, 13, 13, 0.96) 0%, rgba(0, 0, 0, 0.96) 78.65%);
+}
+h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+background: linear-gradient(180deg, #D22A2A 0%, #000000 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+h3{
+    font-family: 'Inter';
+font-style: italic;
+font-weight: 500;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+text-align: center;
+color: #000000;
+}
+h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    text-align: center;
+    background: linear-gradient(180deg, #D22A2A 0%, #000000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.timenext{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 20px;
+}
+.nextmatches{
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: repeat(3,Auto); 
+    padding: 0px;
+    gap: 10px;
+position: absolute;
+top:98%;
+left: 2%;
+}
+.cardmatches{
+    background: #FFFFFF;
+    width: 450px;
+    height: 400px;
+    box-shadow: 10px 10px 4px #6D5858;
+    }
+    .frame{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        width: 450px;
+height: 350px;
+    }
+    .cards{
+        display: grid;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 10px;
+        overflow: hidden;
+        grid-template-columns: repeat(3,Auto); 
+    }
+.date{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 1px;
+    gap: 10px;
+    width: 450px;
+    height: 88px;
+    background: linear-gradient(180deg, #D22A2A 0%, #000000 100%);
+}
+.logoleague{
+width: 100px;
+height: 100px;
+}
+.result{
+    width: 218px;
+height: 60px;
+background: linear-gradient(180deg, #D22A2A 0%, #1E1E1E 100%);
+}
+.name{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 50px;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 5px;    
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 50px;
+    width: 445.06px;
+    height: 80px;
+}
+.button{
+    width: 228px;
+height: 16px;
+background: linear-gradient(180deg, #D22A2A 0%, #000000 100%);
+box-shadow: 10px 10px 4px #6D5858;
+}
+.button1{
+    width: 228px;
+    height: 16px;
+    background: #C9C4C4;
+    box-shadow: 10px 10px 4px #6D5858;    
+}
+.buttons{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 100px;
+grid-template-columns: repeat(3,Auto); 
+position: absolute; 
+top:175%;
+left: 25%;
+}
+.imagecag{
+    width: 450px;
+height: 281.67px;
+}
+.cardg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+}
+.categories{
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    grid-template-columns: repeat(3,Auto); 
+}
+.Tickets{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 50px;
+position: absolute; 
+top:180%;
+left:5%;
+}
+.cardstore{
+    width: 682px;
+height: 500px;
+background: #FFFFFF;
+box-shadow: 10px 10px 4px #6D5858;
+}
+.imagestore{
+    width: 123px;
+height: 158px;
+}
+.backshirt2{
+    background: linear-gradient(180deg, #0C0246 69.78%, #130D35 69.79%, #FFFFFF 100%);
+    width: 682px;
+    height: 200px;
+}
+.backshirt1{
+    background: linear-gradient(180deg, #D22A2A 0%, #FFFFFF 100%);
+    width: 682px;
+    height: 200px;
+}
+.backshirt3{
+    background: linear-gradient(180deg, #164003 68.75%, #FFFFFF 100%);
+    width: 682px;
+    height: 200px;
+}
+.imageshirt{
+    width: 200px;
+height: 276.75px;
+}
+.datashirt{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 60px;
+}
+.infoshirt{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 50px;
+}
+.cardshirt{
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    grid-template-columns: repeat(2,Auto); 
+}
+.stores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 65px;
+    position: absolute; 
+top:280%;
+left:5%;
+}
+a{
+    text-decoration: none;
+}
+.have{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+text-align: center;
+color:#D22A2A;
+ background: #FFFFFF;
+border-radius: 10px 0px;
+width: 323px;
+height: 62px;
+}
+.last{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px 0px;
+gap: 10px;
+position: absolute;
+top:450%;
+left:0%;
+width: 100%;
+background: linear-gradient(180deg, #D22A2A 0%, #000000 100%);
+}

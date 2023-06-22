@@ -1,0 +1,150 @@
+.frame{
+    position: absolute;
+    top:14%;
+    left:0%;
+width:100%;
+height:100%;
+background-image: url("@/assets/cart.png");
+}
+.rectangel{
+margin-top: 5%;
+margin-left: 12%;
+    width: 80%;
+height: 70%;
+background: #FFFFFF;
+}
+.product{
+    width:400px;
+height: 400px;
+}
+h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+color: #000000;
+}
+p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+color: #000000;
+}
+span{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+color: rgba(30, 30, 30, 0.63);
+}
+input{
+border: 3px solid #EBE5E5;
+width: 20px;
+height: 20px;
+}
+.inputtype{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+/* identical to box height */
+color: #000000;
+display: grid;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 20px;
+grid-template-columns: repeat(4,Auto);
+
+}
+.inputsize{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 70px;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+}
+.info{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 53px;
+}
+.enter{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 9px 74px 9px 20px;
+gap: 10px;
+width: 327px;
+height: 66px;
+background: #FFFFFF;
+border: 2px solid rgba(0, 0, 0, 0.25);
+box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+color: rgba(30, 30, 30, 0.63);
+}
+.buy{
+    background: linear-gradient(180deg, #D22A2A 0%, #000000 100%);
+border-radius: 5px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+color: #EBE5E5;
+width: 250px;
+}
+.add{
+    background: #FFFFFF;
+    border: 2px solid#D22A2A;
+    border-radius: 5px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+background: linear-gradient(180deg, #D22A2A 0%, #000000 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+width: 250px;
+}
+.inputs{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 48px;
+}
+label{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+color: #000000;
+}

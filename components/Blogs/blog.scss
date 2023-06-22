@@ -1,0 +1,121 @@
+h1{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 58px;
+color: #000000;
+}
+p{
+    width: 800px;
+font-family: 'Inter';
+font-style: normal;
+font-size: 24px;
+line-height: 29px;
+color: rgba(30, 30, 30, 0.63);
+}
+.readmore{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    background: linear-gradient(180deg, #D22A2A 65.1%, #000000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+   text-decoration: none; 
+}
+span{
+    width: 800px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(30, 30, 30, 0.63);
+}
+img{
+    width: 434px;
+height: 424px;
+border-radius: 5px;
+}
+.info{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+width: 800px;
+height: 326px;
+}
+.blog1{
+    display: flex;
+flex-direction: row;
+justify-content:center;
+align-items:center;
+padding: 0px;
+gap: 40px;
+
+}
+.blog2{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+padding: 0px;
+gap: 40px;
+}
+.blog3{
+    display: flex;
+flex-direction: row;
+justify-content:center;
+align-items:center;
+padding: 0px;
+gap: 40px;
+
+}
+.blogs{
+    display: flex;
+flex-direction: column;
+justify-content:center;
+align-items:center;
+padding-top: 50px;
+gap: 68px;
+}
+.have{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+text-align: center;
+color:#D22A2A;
+ background: #FFFFFF;
+border-radius: 10px 0px;
+width: 323px;
+height: 62px;
+}
+.last{
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 0px 0px;
+gap: 5px;
+width: 100%;
+margin-top: 80px;
+background: linear-gradient(180deg, #D22A2A 0%, #000000 100%);
+}
+h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 116px;
+    color: #FFFFFF;  
+}
+h5{
+    font-size: xx-large;
+}
+span{
+    font-size: 48px;
+}
